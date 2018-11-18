@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+
+    <TextView
+            android:text="Enter your review for the movie:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/ratingStarHint" android:textSize="18sp"/>
+    <RatingBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/ratingBar" android:numStars="5"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:hint="Share your view on the show"
+            android:id="@+id/ratingInfo" android:singleLine="false"/>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <TextView
+            android:text="Title:"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="36dp"
+            tools:layout_editor_absoluteX="39dp" android:id="@+id/titleHint"/>
+    <TextView
+            android:text=""
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/viewmovieTitle" android:textSize="18sp"/>
+    <TextView
+            android:text="Overview:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/overviewHint"/>
+    <TextView
+            android:text="@string/movieOverview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/viewmovieOverview" android:textSize="18sp"/>
+    <TextView
+            android:text="Language:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/languageHint"/>
+    <TextView
+            android:text="@string/movieLanguage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/viewmovieLanguage" android:textSize="18sp"/>
+    <TextView
+            android:text="Release date:"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/relDateHint"/>
+    <TextView
+            android:text="@string/movieRelDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/viewmovieRelDate" android:textSize="18sp"/>
+    <TextView
+            android:text="Suitable for children under 13?"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/ratingHint"/>
+    <TextView
+            android:text="@string/movieRating"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/viewmovieRating" android:textSize="18sp"/>
+
+</LinearLayout>

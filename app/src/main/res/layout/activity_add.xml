@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical"
+              android:weightSum="1">
+
+    <TextView
+            android:text="Name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/textviewName"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/tbName"
+            android:ems="10"
+            android:id="@+id/editTextName"/>
+    <TextView
+            android:text="Description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tvDesc"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textImeMultiLine"
+            android:hint="@string/tbDescription"
+            android:ems="10"
+            android:id="@+id/editTextDesc"/>
+    <TextView
+            android:text="Language"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tvLang"/>
+    <RadioGroup
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+        <RadioButton
+                android:text="@string/rbEnglish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbEnglish" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/rbChinese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbChinese" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/rbMalay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbMalay" android:layout_weight="1"/>
+        <RadioButton
+                android:text="@string/rbTamil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:id="@+id/rbTamil" android:layout_weight="1"/>
+    </RadioGroup>
+    <TextView
+            android:text="Release Date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/tvRelDate"/>
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="datetime"
+            android:ems="10"
+            android:hint="@string/tbDate"
+            android:id="@+id/tbDate"/>
+    <CheckBox
+            android:text="@string/msrp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:id="@+id/cbMsrp"/>
+    <CheckBox
+            android:text="@string/violence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/cbViolence"/>
+    <CheckBox
+            android:text="@string/stronglang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+            android:id="@+id/cbLanguage"/>
+
+    <Button
+            android:text="@string/addmovie"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddMovie"/>
+    <TextView
+            android:text="@string/toastText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" android:id="@+id/toastText"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MovieRater</string>
+    <string name="button_addmovie">Add movie</string>
+    <string name="button_view">View movie</string>
+    <string name="button_rate">Rate movie</string>
+    <string name="tbName">Name</string>
+    <string name="tbDescription">Description</string>
+    <string name="rbEnglish">English</string>
+    <string name="rbChinese">Chinese</string>
+    <string name="rbMalay">Malay</string>
+    <string name="rbTamil">Tamil</string>
+    <string name="tbDate">Date</string>
+    <string name="msrp">Not suitable for all audiences</string>
+    <string name="violence">Violence</string>
+    <string name="stronglang">Strong language</string>
+    <string name="addmovie">Add Movie</string>
+    <string name="toastText"></string>
+    <string name="movieTitle"></string>
+    <string name="movieOverview"></string>
+    <string name="movieLanguage"></string>
+    <string name="movieRelDate"></string>
+    <string name="movieRating"></string>
+</resources>
